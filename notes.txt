@@ -1,0 +1,12 @@
+Set up Virtual Environment:
+python3 -m venv tutorial-env
+Activate the Env:
+source tutorial-env/bin/activate
+
+Install Django:
+python -m pip install Django
+
+Making model/database changes:
+Change your models (in models.py).
+Run python manage.py makemigrations => to create migrations for those changes
+Run python manage.py migrate => to apply those changes to the database.
