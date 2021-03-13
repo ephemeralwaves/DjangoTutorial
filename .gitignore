@@ -129,7 +129,7 @@ dmypy.json
 .pyre/
 
 #sqlite3
-.source/mysite/db.sqlite3
+source/mysite/db.sqlite3
 
 #virtual env
-.tutorial-env/
+tutorial-env/
