@@ -19,3 +19,18 @@ Notes:
 Generic View Class
 These views represent a common case of basic Web development: getting data from the database according to a parameter passed in the URL, loading a template and returning the rendered template. Because this is so common, Django provides a shortcut, called the “generic views” system.
 (https://docs.djangoproject.com/en/3.1/topics/class-based-views/)
+
+Test automation with selenium: 
+tutorial: https://www.obeythetestinggoat.com/book/chapter_01.html
+pre-requi are firefox and geckodriver
+
+For covereage check:
+pip install coverage
+coverage run --source='.' manage.py test myapp
+coverage report
+
+Dependencies (For development):
+pip freeze > requirements.txt
+To install dependencies
+pip install -r requirements.txt 
+

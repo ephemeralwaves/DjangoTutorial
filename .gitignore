@@ -133,3 +133,6 @@ source/mysite/db.sqlite3
 
 #virtual env
 tutorial-env/
+
+#gecko
+source/mysite/geckodriver.log
