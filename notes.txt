@@ -13,3 +13,9 @@ Run python manage.py migrate => to apply those changes to the database.
 
 Run server with:
 python manage.py runserver
+
+
+Notes:
+Generic View Class
+These views represent a common case of basic Web development: getting data from the database according to a parameter passed in the URL, loading a template and returning the rendered template. Because this is so common, Django provides a shortcut, called the “generic views” system.
+(https://docs.djangoproject.com/en/3.1/topics/class-based-views/)
